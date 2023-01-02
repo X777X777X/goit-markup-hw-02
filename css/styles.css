@@ -1,6 +1,10 @@
+:root {
+--text-color-grey color: #2e2f42;
+--color-white color:#ffffff; 
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: var(--text-color-grey);
 }
 .header-web {
   width: 44px;
@@ -29,7 +33,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--text-color-grey);
   text-decoration: none;
 }
 .header-list {
@@ -37,7 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color-grey);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -64,10 +68,10 @@ body {
   line-height: 1.07em;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 .section-one {
-  background: #2e2f42;
+  background: var(--text-color-grey);
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -90,7 +94,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color-white);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -99,7 +103,7 @@ body {
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color-grey);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -119,7 +123,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--text-color-grey);
 }
 .section-four-team {
   font-size: 36px;
@@ -127,14 +131,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--text-color-grey);
 }
 .section-four-name {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color-grey);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -150,7 +154,7 @@ body {
   flex-grow: 0;
 }
 .footer {
-  background: #2e2f42;
+  background: var(--text-color-grey);
 }
 .footer-web {
   font-family: "Raleway";
@@ -226,13 +230,13 @@ body {
 .portfolio-button-text:hover,
 .portfolio-button-text:focus {
   background: #404bbf;
-  color: #fff;
+  color: var(--color-white);
 }
 .portfolio-item {
   font-size: 20px;
   line-height: 1.2em;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color-grey);
   flex: none;
   order: 0;
   flex-grow: 0;
