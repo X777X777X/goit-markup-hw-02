@@ -70,6 +70,7 @@ body {
   background: #2e2f42;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
   left: 636px;
@@ -196,6 +197,7 @@ body {
   display: none;
 }
 .portfolio-button {
+  font-family: "Roboto", sans-serif;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
